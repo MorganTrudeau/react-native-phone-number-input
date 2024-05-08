@@ -296,6 +296,7 @@ export default class PhoneInput extends Component<
     | "KI"
     | "HK"
     | "AX";
+  setValue: (value: number) => void;
   getCallingCode: () => string | undefined;
   isValidNumber: (number: string) => boolean;
   onSelect: (country: Country) => void;
