@@ -298,7 +298,7 @@ export default class PhoneInput extends Component<
     | "AX";
   focus: () => void;
   blur: () => void;
-  setValue: (value: number) => void;
+  setValue: (value: string) => void;
   getCallingCode: () => string | undefined;
   isValidNumber: (number: string) => boolean;
   onSelect: (country: Country) => void;
